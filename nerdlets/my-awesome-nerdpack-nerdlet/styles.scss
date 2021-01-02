@@ -1,0 +1,26 @@
+.card {
+    border: 1px solid lightgray;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 6px lightgrey;
+    .header {
+        height: 15px;
+        background-color: #58915b;
+        width: 100%;
+    }
+    .body {
+        padding: 8px 15px;
+        display: flex;
+        input {
+            width: 120px;
+            box-shadow: 0 0 6px lightgrey;
+            border: none;
+            padding: 8px;
+        }
+    }
+}
+
+.container {
+    padding: 10px;
+}
